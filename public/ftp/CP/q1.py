@@ -1,0 +1,17 @@
+a=int(input("enter the first number \n "))
+b=int(input("enter the second number \n "))
+c=int(input("enter the third number \n "))
+if(a>=b and b>=c)
+   print(a,b,c)
+elif(a>=c and c>=b)
+   print(a,c,b)
+
+if(b>=a and a>=c)
+   print(b,a,c)
+elif(b>=c and c>=a)
+   print(b,c,a)
+
+if(c>=b and b>=a)
+   print(c,b,a)
+elif(c>=a and a>=b)
+   print(c,a,b)   
